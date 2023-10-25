@@ -1,0 +1,7 @@
+.cabecalho__menu-hamb{
+    width: 25px;
+    height: 25px;
+    background-image: url(../imagens/Menu.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+}

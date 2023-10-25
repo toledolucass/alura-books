@@ -1,0 +1,46 @@
+@import url(./header.css);
+
+:root{
+    --bg-color: #EBECEE;
+    --branco: #FFFFFF;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+.cabecalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+#menu:checked~.lista-menu{
+    display: block;
+}
+
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.container__ancora{
+    display: flex;
+}
+
+.container__imagem{
+    width: 26px;
+    height: 26px;
+}
+
+
